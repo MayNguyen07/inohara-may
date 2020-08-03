@@ -454,7 +454,7 @@
                     }
                     
                     .company_sec01 .inner {
-                        width: 95%;
+                        width: 94%;
                     }
                     
                     .ttl_content01 {
@@ -540,6 +540,7 @@
                     
                     .infor_table table tbody tr th {
                         width: 130px;
+                        position: relative;
                     }
                     
                     table {
@@ -577,6 +578,10 @@
                         color: #333333;
                         display: block;
                         padding-left: 20px;
+                    }
+                    
+                    .infor_table {
+                        margin-top: 55px;
                     }
                     /* End company content PC */
                     /****************
@@ -695,7 +700,7 @@
                             text-align: center;
                         }
                         .ft_links div a {
-                            font-size: 1.2rem;
+                            font-size: 1.1rem;
                             text-align: center;
                         }
                         .ft_links_top a,
@@ -705,6 +710,13 @@
                         .copyright {
                             padding-top: 20px;
                             font-size: 1rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 475px) {
+                        #header h1 a img {
+                            margin-left: 20px;
+                            width: 63%;
                         }
                     }
                     /* End footer section */
@@ -773,5 +785,66 @@
                             font-size: 1.3rem;
                             margin-left: 0;
                         }
+                        /* end top page content */
+                        /*  start company section */
+                        .ttl_company {
+                            background: url("../img/common/bg_ttl_cotentsp.png");
+                        }
+                        .company_sec01 {
+                            margin: 50px auto;
+                        }
+                        .ttl_content01 {
+                            font-size: 2rem;
+                        }
+                        .box {
+                            margin-bottom: 0;
+                        }
+                        .box p {
+                            font-size: 1.3rem;
+                            padding-top: 20px;
+                        }
+                        .company_sec02 {
+                            margin: 40px auto;
+                            width: 90%;
+                        }
+                        .infor_table table tbody tr th {
+                            width: 70px;
+                            position: relative;
+                            font-size: 1.2rem;
+                        }
+                        .infor_table tr td {
+                            font-size: 1.2rem;
+                            padding-left: 3px;
+                        }
+                        .infor_table tr th.span-row::after {
+                            margin-top: 36px;
+                        }
+                        .pic_services img {
+                            max-width: 100%;
+                        }
+                        .pic_services img:nth-child(2) {
+                            max-width: 100%;
+                            padding-top: 30px;
+                            padding-left: 0px;
+                        }
+                        .map iframe {
+                            margin-top: 50px;
+                            width: 100%;
+                            height: 250px;
+                        }
+                        .pic_services {
+                            margin-top: 30px;
+                            text-align: center;
+                        }
+                        .note-map p {
+                            font-size: 1.2rem
+                        }
+                        /* End compnay page */
+                        /* Start product page */
                     }
-                    /* end top page content */
+                    
+                    @media only screen and (max-width: 393px) {
+                        .infor_table tr th.address_company::after {
+                            margin-top: 108px;
+                        }
+                    }
