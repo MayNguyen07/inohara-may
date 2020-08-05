@@ -43,7 +43,8 @@
     }
     
     @media only screen and (min-width: 768px) {
-        .container {
+        .container,
+        #header {
             min-width: 1120px;
         }
     }
@@ -90,6 +91,14 @@
     
     .nav_list .header_email {
         line-height: 0;
+    }
+    
+    .nav_list .header_email a:hover {
+        cursor: pointer;
+        zoom: 1;
+        filter: alpha(opacity=50);
+        opacity: 0.7;
+        transition: opacity 1s ease-in-out;
     }
     
     .nav_list li a {
@@ -198,6 +207,16 @@
         margin-top: 47px;
     }
     
+    .ft_links_top a:hover {
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
+    .ft_links_botom a:hover {
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
     .ft_links_top a,
     .ft_links_botom a {
         margin-left: 32px;
@@ -235,7 +254,7 @@
         display: flex;
         justify-content: flex-start;
         padding: 105px 0;
-        margin: 0 200px;
+        margin: 0 14%;
     }
     
     .top_sec01 h4 {
@@ -280,6 +299,7 @@
     
     .top_sec01 p span {
         color: #2458c7;
+        padding-right: 7px;
     }
     /* End top sec01*/
     
@@ -338,26 +358,19 @@
         text-align: center;
         color: #ffffff;
         margin-top: 40px;
+        margin-bottom: 40px;
     }
     
-    .btn_top_more {
-        background-image: url("../img/top/btn_top_more.jpg");
+    .btn_top_more img {
         background-repeat: no-repeat;
-        width: 300px;
-        height: 60px;
-        padding-top: 14px;
-        margin-top: 60px;
+        max-width: 100%;
     }
     
-    .btn_top_more a p {
-        font-size: 1.8rem;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.78;
-        letter-spacing: 1.8px;
-        text-align: center;
-        color: #ffffff;
+    .btn_top_more a:hover {
+        zoom: 1;
+        filter: alpha(opacity=50);
+        opacity: 0.7;
+        transition: opacity 1s ease-in-out;
     }
     /* End top sec02 */
     
@@ -403,6 +416,10 @@
         letter-spacing: 2.4px;
         text-align: center;
         color: #ffffff;
+    }
+    
+    .btn_contact_top {
+        margin-top: 60px;
     }
     /* End top page content */
     /* Start company content */
@@ -747,7 +764,10 @@
     
     .btn_contact a:hover {
         cursor: pointer;
+        zoom: 1;
+        filter: alpha(opacity=50);
         opacity: 0.7;
+        transition: opacity 1s ease-in-out;
     }
     
     .recruit_sec02 {
@@ -1000,6 +1020,14 @@
         /* z-index: -1; */
     }
     
+    .sitemap_contents ul li a:hover {
+        cursor: pointer;
+        zoom: 1;
+        filter: alpha(opacity=70);
+        opacity: 0.5;
+        transition: opacity 1s ease-in-out;
+    }
+    
     .sitemap_contents ul li {
         background-color: #ffffff;
         margin-bottom: 30px;
@@ -1014,7 +1042,7 @@
         width: 7px;
         height: 12px;
         position: absolute;
-        background-image: url("/img/sitemap/icon_sitemap_pointing.png");
+        background-image: url("../img/sitemap/icon_sitemap_pointing.png");
         top: 30%;
         left: -25%;
     }
@@ -1036,6 +1064,10 @@
     .sitemap_contents ul:first-child {
         padding-top: 30px;
         justify-content: flex-start;
+    }
+    
+    .sitemap_content {
+        margin: 90px 30px;
     }
     /* End Site map page  */
     /****************
@@ -1208,12 +1240,13 @@
         .sec_description {
             font-size: 1.1rem;
             margin-top: 20px;
+            margin-bottom: 0;
         }
         .btn_top_more {
             width: 200px;
             height: 45px;
             padding-top: 7px;
-            margin-top: 40px;
+            margin-top: 20px;
         }
         .top_sec03 {
             margin-top: -94px;
@@ -1240,7 +1273,7 @@
         }
         .top_sec01 p {
             font-size: 1.3rem;
-            margin-left: 0;
+            margin-left: 30px;
         }
         /* end top page content */
         /*  start company section */
@@ -1494,29 +1527,8 @@
         .sitemap_contents {
             margin-top: 30px;
         }
+        .sitemap_content {
+            margin: 50px 20px;
+        }
         /* End Site Mapfor SP */
-    }
-    
-    @media only screen and (max-width: 393px) {
-        .infor_table tr th.address_company::after {
-            margin-top: 108px;
-        }
-    }
-    
-    @media only screen and (max-width: 654px) {
-        .infor_table tr th.recruit_row_sp::after {
-            margin-top: 36px;
-        }
-    }
-    
-    @media only screen and (max-width: 380px) {
-        .infor_table tr th.recruit_row_sp::after {
-            margin-top: 36px;
-        }
-    }
-    
-    @media only screen and (max-width: 560px) {
-        .infor_table tr th.recruit_spanrow::after {
-            margin-top: 72px;
-        }
     }

@@ -56,3 +56,17 @@ $("#form").validate({
     errorElement: "span",
     errorClass: "is-error",
 });
+
+//  fix header in no liquid
+var $window = $(window);
+var $body = $("body");
+var $html = $("html");
+var $bodyHtml = $("body,html");
+var winwidth = window.innerWidth;
+window.addEventListener("scroll", _handleScroll, false);
+
+function _handleScroll() {
+    $("#header").css({
+        left: -window.scrollX + "px",
+    });
+}
