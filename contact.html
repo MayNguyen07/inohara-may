@@ -8,8 +8,8 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- Style css -->
-    <link rel="stylesheet" href="../css/common.css" media="all" />
-    <link rel="stylesheet" href="../css/style.css" media="all" />
+    <link rel="stylesheet" href="./css/common.css" media="all" />
+    <link rel="stylesheet" href="./css/style.css" media="all" />
 
 </head>
 
@@ -18,19 +18,19 @@
         <header id="header">
             <h1>
                 <a>
-                    <img src="../img/common/header_logo.png" alt="">
+                    <img src="./img/common/header_logo.png" alt="">
                 </a>
             </h1>
             <div id="gNav">
                 <nav>
                     <ul class="nav_list">
-                        <li><a href="">トップ</a></li>
-                        <li><a href="">会社案内</a></li>
-                        <li><a href="">取扱製品</a></li>
-                        <li><a href="">採用情報</a></li>
+                        <li><a href="./">トップ</a></li>
+                        <li><a href="company.html">会社案内</a></li>
+                        <li><a href="product.html">取扱製品</a></li>
+                        <li><a href="recruit.html">採用情報</a></li>
                         <li class="header_email">
-                            <a href="">
-                                <img src="../img/common/bg_header_email.jpg" alt="">
+                            <a href="contact.html">
+                                <img src="./img/common/bg_header_email.jpg" alt="">
                             </a>
                         </li>
                     </ul>
@@ -41,27 +41,33 @@
             </div>
             <!-- End header-->
         </header>
+        <!-- End header-->
+
         <div id="main">
             <div class="ttl_company">
                 <h2>
-                    <img src="../img/contact/ttl_contact.png" alt="">
+                    <img src="./img/contact/ttl_contact.png" alt="">
                 </h2>
             </div>
-            <!-- End ttl company -->
+            <!-- End ttl contact -->
+
             <div class="breadcrumb">
-                <div class="inner">
-                    <ul>
-                        <li>トップ</li>
-                        <li>お問い合わせ</li>
-                    </ul>
+                <div class="breadcrumb_wrap">
+                    <div class="inner">
+                        <ul>
+                            <li>トップ</li>
+                            <li>お問い合わせ</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- End breadcrumb -->
+
             <div class="contact_sec01">
                 <div class="inner">
                     <h3 class="ttl_content01">
                         <span>
-                            <img src="../img/company/before_ttl_content.png">
+                            <img src="./img/company/before_ttl_content.png">
                         </span>お電話・FAXでのお問い合わせ
                     </h3>
                     <div class="contact_box">
@@ -76,11 +82,11 @@
                 <div class="inner">
                     <h3 class="ttl_content01">
                         <span>
-                            <img src="../img/company/before_ttl_content.png">
+                            <img src="./img/company/before_ttl_content.png">
                         </span>メールフォームでのお問い合わせ
                     </h3>
                     <div class="contact_instruction">
-                        <p>お手数ですが、<span>＊</span>の付いた項目は必ずご入力ください<br> 半角カタカナ、外字（登録文字）での入力は文字化けの原因となりますのでお控えください。<br><a href="#">個人情報保護方針</a> にご同意の上、送信ください。</p>
+                        <p>お手数ですが、<span>＊</span>の付いた項目は必ずご入力ください<br> 半角カタカナ、外字（登録文字）での入力は文字化けの原因となりますのでお控えください。<br><a href="privacypolicy.html">個人情報保護方針</a> にご同意の上、送信ください。</p>
                     </div>
                     <div class="contact_form">
                         <form action="./" method="post" id="form" novalidate="novalidate">
@@ -140,22 +146,23 @@
                 <p> TO TOP</p>
             </div>
             <div class=" inner ft_contents ">
+
                 <div class=" ft_address ">
-                    <a href="./ "><img src="../img/common/footer_logo.png "></a>
+                    <a href="./ "><img src="./img/common/footer_logo.png "></a>
                     <p class="ft_contents01 ">株式会社猪原商会</p>
                     <p class="ft_contents02 ">〒340-0808 埼玉県八潮市緑町2丁目17番地1</br>Tel 048-996-4431(代) Fax 048-996-1874</p>
                 </div>
                 <div class="ft_links ">
                     <div class="ft_links_top ">
-                        <a>トップ</a>
-                        <a>会社案内</a>
-                        <a>取扱製品</a>
-                        <a>採用情報</a>
+                        <a href="./">トップ</a>
+                        <a href="company.html">会社案内</a>
+                        <a href="product.html">取扱製品</a>
+                        <a href="recruit.html">採用情報</a>
                     </div>
                     <div class="ft_links_botom ">
-                        <a>お問い合わせ</a>
-                        <a>個人情報保護方針</a>
-                        <a>サイトマップ</a>
+                        <a href="contact.html">お問い合わせ</a>
+                        <a href="privacypolicy.html">個人情報保護方針</a>
+                        <a href="sitemap.html">サイトマップ</a>
 
                     </div>
                 </div>
@@ -171,10 +178,9 @@
     <!-- script file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js "></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-    <!-- <script src="http://jquery.bassistance.de/validate/additional-methods.js"></script> -->
     <script src="https://kit.fontawesome.com/a076d05399.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
-    <script src="../js/script.js "></script>
+    <script src="./js/script.js "></script>
 </body>
 
 </html>
