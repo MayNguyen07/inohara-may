@@ -963,6 +963,64 @@
     .privacy_content .box:last-child {
         margin-bottom: 100px;
     }
+    /* End policy privacy  */
+    /* start Site map page  */
+    
+    .sitemap_contents {
+        background: #f0f4fb;
+        margin-top: 50px;
+    }
+    
+    .sitemap_contents ul li a {
+        font-size: 1.8rem;
+        font-weight: normal;
+        line-height: 1.78;
+        letter-spacing: 1.8px;
+        text-align: left;
+        color: #333333;
+        color: inherit;
+        position: relative;
+        /* z-index: -1; */
+    }
+    
+    .sitemap_contents ul li {
+        background-color: #ffffff;
+        margin-bottom: 30px;
+        max-width: 340px;
+        width: 32%;
+        padding: 23px 50px;
+        margin-right: 14px;
+    }
+    
+    .sitemap_contents ul li a::before {
+        content: "";
+        width: 7px;
+        height: 12px;
+        position: absolute;
+        background-image: url("/img/sitemap/icon_sitemap_pointing.png");
+        top: 30%;
+        left: -25%;
+    }
+    
+    .sitemap_contents ul:last-child li a::before {
+        left: -17%;
+    }
+    
+    .sitemap_contents ul {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    
+    .sitemap_contents ul li:first-child {
+        margin-left: 30px;
+    }
+    
+    .sitemap_contents ul:first-child {
+        padding-top: 30px;
+        justify-content: flex-start;
+    }
+    /* End Site map page  */
     /****************
    6.template for sp
 *****************/
@@ -1382,6 +1440,27 @@
             margin-bottom: 50px;
         }
         /* End privacy policy for SP */
+        /* Start Site Mapfor SP */
+        .sitemap_contents ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .sitemap_contents ul li {
+            width: 100%;
+            padding: 12px 30px;
+        }
+        .sitemap_contents ul li:first-child {
+            margin-left: 0px;
+        }
+        .sitemap_contents ul li a {
+            font-size: 1.5rem;
+        }
+        .sitemap_contents {
+            margin-top: 30px;
+        }
+        /* End Site Mapfor SP */
     }
     
     @media only screen and (max-width: 393px) {
