@@ -174,7 +174,7 @@
     }
     
     .ft_links {
-        width: 30%;
+        width: 42%;
     }
     
     .ft_address a img {
@@ -206,6 +206,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #ffffff;
+        display: inline-block;
     }
     
     .ft_links_top {
@@ -1282,7 +1283,7 @@
             background: url("../img/common/bg_ttl_cotentsp.png");
         }
         .company_sec01 {
-            margin: 30px 30px;
+            margin: 30px 15px;
         }
         .ttl_content01 {
             font-size: 2rem;
