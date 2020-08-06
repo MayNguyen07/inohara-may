@@ -811,7 +811,7 @@
         font-weight: 500;
         line-height: 1.6;
         color: #ffffff;
-        padding: 0 5px;
+        padding: 0 3px;
         background-color: #0c46c1;
         margin-right: 10px;
     }
@@ -1455,7 +1455,7 @@
             padding-top: 10px;
         }
         .contact_box ul li span {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
         .contact_instruction p {
             font-size: 1.2rem;
