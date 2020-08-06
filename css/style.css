@@ -695,6 +695,10 @@
         width: 33%;
     }
     
+    .list_menufactor_product ul li a img {
+        padding-top: 13px;
+    }
+    
     .list_menufactor_product ul li {
         font-size: 1.6rem;
         font-weight: normal;
