@@ -669,10 +669,6 @@
         margin-top: 80px;
     }
     
-    .ctn_bussiness_right img {
-        padding-bottom: 20px;
-    }
-    
     .product_sec01 div.box p {
         font-weight: normal;
     }
@@ -1305,12 +1301,13 @@
             width: 90%;
         }
         .infor_table table tbody tr th {
-            width: 70px;
+            width: 95px;
             position: relative;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            padding-left: 10px;
         }
         .infor_table tr td {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             padding-left: 3px;
         }
         .infor_table tr th.span-row::after {
@@ -1371,9 +1368,9 @@
         }
         .ctn_bussiness_right {
             display: grid;
-            grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr));
+            grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr));
             grid-template-rows: repeat(2, auto);
-            grid-gap: 10px;
+            grid-gap: 15px;
             margin-top: 30px;
             margin-bottom: 30px;
         }
@@ -1436,6 +1433,11 @@
         }
         .btn_contact {
             margin-bottom: 40px
+        }
+        @media only screen and (max-width: 580px) {
+            .ctn_bussiness_right {
+                margin: 30px auto;
+            }
         }
         /* End Recruit Section for SP */
         /* start contact for SP */
