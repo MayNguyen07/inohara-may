@@ -413,6 +413,7 @@ img {
 }
 
 .btn_top_more a:hover {
+    cursor: pointer;
     zoom: 1;
     filter: alpha(opacity=50);
     opacity: 0.7;
@@ -1593,6 +1594,7 @@ ul.content_list li a {
     .company_sec01 div.box {
         padding-right: 30px;
         padding-bottom: 23px;
+        margin-bottom: 0;
     }
     .box {
         margin-bottom: 0;
