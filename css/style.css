@@ -154,6 +154,10 @@ img {
     z-index: -1;
 }
 
+.pagetop:hover {
+    cursor: pointer;
+}
+
 .pagetop p {
     position: relative;
     font-size: 1.2rem;
@@ -347,7 +351,7 @@ img {
     background-size: cover;
     background-position: center;
     padding-top: 20px;
-    padding-bottom: 120px;
+    padding-bottom: 140px;
 }
 
 .wrap_top_sec {
@@ -424,7 +428,7 @@ img {
     background-size: cover;
     background-position: center;
     margin-bottom: 13px;
-    margin-top: -165px;
+    margin-top: -167px;
 }
 
 
@@ -435,12 +439,15 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -58px;
-    padding-top: 100px;
+    margin-top: -53px;
 }
 
 .top_sec04 div.wrap_top_sec {
-    padding: 62px;
+    padding: 102px 0;
+}
+
+.top_sec04 .ttl_section {
+    padding-top: 25px;
 }
 
 
@@ -642,7 +649,7 @@ img {
 }
 
 .infor_table tr:last-child td {
-    padding: 5px 20px;
+    padding: 7px 20px;
 }
 
 .infor_table tr td::after {
@@ -722,6 +729,10 @@ table {
 
 .company_sec02 .infor_table {
     margin-top: 40px;
+}
+
+.company_sec02 .infor_table tbody tr:nth-child(6) th {
+    padding: 5px 19px;
 }
 
 .company_sec01 div.box {
@@ -858,7 +869,7 @@ table {
 
 .product_sec01 .box p {
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 23px;
 }
 
 
@@ -1330,6 +1341,9 @@ ul.content_list li a {
         margin-left: 0;
         width: 100%;
     }
+    .nav_list li:last-child {
+        margin-left: 0;
+    }
     .nav_list li a {
         color: #ffffff;
         float: left;
@@ -1428,8 +1442,11 @@ ul.content_list li a {
         font-size: 1rem;
     }
     .ttl_page h2 img {
-        width: 170px;
-        height: 70px;
+        height: 60px;
+    }
+    .ttl_page h2 {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .breadcrumb li {
         font-size: 1.4rem
@@ -1478,11 +1495,11 @@ ul.content_list li a {
         padding-top: 47px;
     }
     .top_sec04 {
-        margin-top: -41px;
+        margin-top: -32px;
         padding-top: 41px;
     }
     .top_sec04 div.wrap_top_sec {
-        padding: 75px;
+        padding: 18px;
     }
     .btn_contact_top {
         margin-top: 50px;
@@ -1499,18 +1516,16 @@ ul.content_list li a {
         margin-top: 13px;
     }
     .sec_description {
-        font-size: 1.1rem;
-        margin-top: 13px;
-        margin-bottom: 0;
+        display: none;
     }
     .btn_top_more {
-        width: 250px;
+        width: 280px;
         height: 50px;
         padding-top: 7px;
         margin-top: 20px;
     }
     .top_sec03 {
-        margin-top: -94px;
+        margin-top: -80px;
         padding: 50px 0;
     }
     .top_sec03 div h4 {
@@ -1519,6 +1534,11 @@ ul.content_list li a {
     .top_sec02 {
         padding-top: 0;
         padding-bottom: 50px;
+        height: 300px;
+    }
+    .top_sec02,
+    .top_sec04 {
+        height: 300px;
     }
     .top_sec01 {
         padding: 40px 0;
@@ -1651,6 +1671,8 @@ ul.content_list li a {
     .ctn_bussiness_right {
         display: inline-block;
         width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .ctn_bussiness_right img {
         width: calc(50% - 2rem);
@@ -1674,8 +1696,23 @@ ul.content_list li a {
     }
     .list_menufactor_product ul li {
         display: inline-block;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         padding-right: 20px;
+        padding-left: 7px;
+        margin: 5px;
+        position: relative;
+    }
+    .list_menufactor_product ul li::before {
+        content: ".";
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+        position: absolute;
+        left: -1px;
+        bottom: 4px;
+    }
+    .list_menufactor_product ul li:last-child::before {
+        display: none;
     }
     .list_menufactor_product ul {
         width: 100%;
@@ -1684,7 +1721,6 @@ ul.content_list li a {
         margin-top: 40px;
     }
     .list_menufactor_item:last-child li:last-child {
-        margin-top: 8px;
         width: 100%;
     }
     .list_menufactor_product {
@@ -1703,7 +1739,7 @@ ul.content_list li a {
         margin-bottom: 40px;
     }
     .btn_contact a img {
-        width: 370px;
+        width: 400px;
         height: 60px;
     }
     .recruit_sec01 div .box {
@@ -1825,7 +1861,7 @@ ul.content_list li a {
     .privacy_content .box {
         padding: 25px 15px;
         margin-bottom: 0;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .privacy_content .box_policy02 .child_box02 ul li {
         font-size: 1.4rem;
