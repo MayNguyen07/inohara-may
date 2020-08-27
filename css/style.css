@@ -291,11 +291,12 @@ img {
 
 /* start news section */
 
-.top_sec01 {
+.top_sec01_wrap {
     display: flex;
-    justify-content: flex-start;
-    padding: 104px 0;
-    margin: 0 16.5%;
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 111px;
+    padding-left: 26px;
 }
 
 .top_sec01 h2 {
@@ -736,7 +737,7 @@ table {
 }
 
 .company_sec01 div.box {
-    margin-bottom: 86px;
+    margin-bottom: 88px;
 }
 
 .company_sec02 .infor_table tr:nth-child(4) td {
@@ -833,15 +834,18 @@ table {
     padding-left: 10px;
 }
 
-.product_sec01,
-.product_sec02 {
+.product_sec01 {
     margin-top: 86px;
+}
+
+.product_sec02 {
+    margin-top: 88px;
 }
 
 .list_menufactor_product {
     display: flex;
     justify-content: start;
-    margin-top: 32px;
+    margin-top: 35px;
     margin-bottom: 92px;
 }
 
@@ -925,7 +929,11 @@ table {
 }
 
 .infor_table table tbody tr th {
-    padding: 4px 19px;
+    padding: 6px 19px;
+}
+
+.infor_table table tbody tr:nth-child(4) th {
+    vertical-align: text-top;
 }
 
 .recruit_box01 p {
@@ -1540,7 +1548,7 @@ ul.content_list li a {
     .top_sec04 {
         height: 300px;
     }
-    .top_sec01 {
+    .top_sec01_wrap {
         padding: 40px 0;
         margin: 0 20px;
         display: flex;
@@ -1554,7 +1562,7 @@ ul.content_list li a {
         margin-right: 30px;
         max-width: 70px;
     }
-    .top_sec01 p {
+    .top_sec01_wrap p {
         font-size: 1.4rem;
         line-height: 2.5;
     }
@@ -1739,8 +1747,8 @@ ul.content_list li a {
         margin-bottom: 40px;
     }
     .btn_contact a img {
-        width: 400px;
-        height: 60px;
+        width: 95%;
+        height: 70px;
     }
     .recruit_sec01 div .box {
         padding: 25px;
