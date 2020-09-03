@@ -1979,6 +1979,9 @@ ul.content_list li a {
         margin-bottom: 0;
         margin-top: 20px;
     }
+    .privacy_content div.box_policy01 {
+        padding-top: 20px;
+    }
     .privacy_content .box_policy02 .child_box02 ul li {
         font-size: 1.4rem;
         line-height: 2;
