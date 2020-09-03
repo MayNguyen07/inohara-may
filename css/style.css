@@ -1327,7 +1327,7 @@ ul.content_list li a {
 .sitemap_contents {
     background: #f0f4fb;
     margin-top: 45px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .sitemap_contents ul li a {
@@ -2024,6 +2024,7 @@ ul.content_list li a {
     }
     .sitemap_contents {
         margin-top: 30px;
+        padding: 20px;
     }
     .sitemap_content {
         margin-top: 40px;
