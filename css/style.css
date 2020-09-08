@@ -692,7 +692,15 @@ img {
 }
 
 .company_sec02 div.infor_table tbody tr:nth-child(3) td {
-    padding: 4px 20px 4px 20px;
+    padding: 3px 20px 4px 20px;
+}
+
+.company_sec02 div.infor_table tbody tr:nth-child(2) th {
+    padding: 4px 19px 7px;
+}
+
+.company_sec02 div.infor_table tbody tr:nth-child(3) th {
+    padding: 4px 19px 5px;
 }
 
 .company_sec02.infor_table tr:nth-child(4) td {
@@ -789,7 +797,7 @@ table {
 }
 
 .company_sec02 .infor_table tbody tr:nth-child(6) th {
-    padding: 5px 19px;
+    padding: 7px 19px;
 }
 
 .company_sec01 div.box {
@@ -797,7 +805,7 @@ table {
 }
 
 .company_sec02 .infor_table tr:nth-child(4) td {
-    padding: 12px 20px 18px 20px;
+    padding: 14px 20px 19px 20px;
     line-height: 1.7;
     letter-spacing: 0.3px;
 }
@@ -974,11 +982,11 @@ table {
     line-height: 1.78;
     letter-spacing: 1.8px;
     color: #333333;
-    padding-top: 25px;
+    padding-top: 26px;
 }
 
 .recruit_box01 {
-    padding-left: 30px;
+    padding-left: 29px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
@@ -1014,6 +1022,10 @@ table {
 
 .infor_table table tbody tr:nth-child(4) th {
     vertical-align: text-top;
+}
+
+.recruit_sec01 div.infor_table tbody tr:nth-child(4) th {
+    padding: 4px 19px 6px;
 }
 
 .recruit_box01 p {
