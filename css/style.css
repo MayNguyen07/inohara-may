@@ -490,6 +490,7 @@ img {
     width: 100%;
     height: 100px;
     position: relative;
+    transition: all 0.5s;
 }
 
 .btn_contact_top::after {
@@ -597,7 +598,7 @@ img {
 /* company sec01 */
 
 .company_sec01 {
-    margin-top: 85px;
+    margin-top: 84px;
 }
 
 .ttl_content01 {
@@ -631,7 +632,7 @@ img {
     background-color: #f0f4fb;
     padding-bottom: 21px;
     margin-bottom: 80px;
-    padding-right: 20px;
+    padding-right: 24px;
 }
 
 .box p {
@@ -640,16 +641,16 @@ img {
     line-height: 2;
     text-align: left;
     color: #333333;
-    padding-left: 27px;
+    padding-left: 29px;
 }
 
 .box p:first-child {
-    padding-top: 26px;
+    padding-top: 28px;
 }
 
 .box p:nth-child(2) {
-    padding-top: 15px;
-    padding-bottom: 13px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 
@@ -681,10 +682,14 @@ img {
     line-height: 2.4;
     letter-spacing: 0.8px;
     text-align: left;
-    padding-left: 20px;
+    padding: 9px 20px 11px 20px;
     position: relative;
     z-index: -1;
     vertical-align: middle;
+}
+
+.company_sec02 div.infor_table tbody tr td {
+    padding: 9px 20px 11px 20px;
 }
 
 .company_sec02.infor_table tr:nth-child(4) td {
@@ -696,8 +701,9 @@ img {
     vertical-align: text-top;
 }
 
-.infor_table tr:last-child td {
-    padding: 7px 20px;
+.company_sec02 div.infor_table tbody tr:last-child td {
+    padding: 17px 20px;
+    line-height: 1.8;
 }
 
 .infor_table tr td::after {
@@ -738,7 +744,7 @@ table {
 }
 
 .pic_services img:nth-child(2) {
-    padding-left: 20px;
+    padding-left: 17px;
 }
 
 .company_sec02 .map {
@@ -776,7 +782,7 @@ table {
 }
 
 .company_sec02 .infor_table {
-    margin-top: 43px;
+    margin-top: 45px;
 }
 
 .company_sec02 .infor_table tbody tr:nth-child(6) th {
@@ -784,11 +790,13 @@ table {
 }
 
 .company_sec01 div.box {
-    margin-bottom: 90px;
+    margin-bottom: 82px;
 }
 
 .company_sec02 .infor_table tr:nth-child(4) td {
-    padding: 5px 20px;
+    padding: 15px 20px 19px 20px;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
 }
 
 
@@ -1025,14 +1033,6 @@ table {
     justify-content: center;
 }
 
-.btn_contact a:hover {
-    cursor: pointer;
-    zoom: 1;
-    filter: alpha(opacity=50);
-    opacity: 0.7;
-    transition: opacity .3s ease-in-out;
-}
-
 .recruit_sec02 {
     margin-top: 84px;
 }
@@ -1043,9 +1043,12 @@ table {
 
 /* Start contact for PC */
 
-.contact_sec01,
+.contact_sec01 {
+    margin-top: 81px;
+}
+
 .contact_sec02 {
-    margin-top: 85px;
+    margin-top: 83px;
 }
 
 .contact_box {
@@ -1053,7 +1056,7 @@ table {
     border: 1px solid #c2d1ef;
     padding-bottom: 56px;
     padding-top: 27px;
-    margin-top: 42px;
+    margin-top: 45px;
 }
 
 ul.content_list li {
@@ -1065,6 +1068,10 @@ ul.content_list li {
     line-height: 1.33;
     color: #0c46c1;
     letter-spacing: 1.2px;
+}
+
+ul.content_list li:last-child {
+    padding-left: 27px;
 }
 
 ul.content_list li span {
@@ -1549,6 +1556,10 @@ ul.content_list li a {
     }
     .child_box02 ul.content_list li.Tel {
         margin-top: 7px;
+        font-size: 2rem;
+    }
+    .recruit_sec02 .box.recruit_box01 p.tel_text {
+        padding-top: 0;
     }
 }
 
