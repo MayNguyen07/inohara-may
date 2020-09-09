@@ -1035,7 +1035,7 @@ table {
 }
 
 .child_box02 {
-    padding-left: 21px;
+    padding-left: 23px;
     padding-top: 23px;
     padding-bottom: 15px;
     background-color: #ffffff;
@@ -1046,7 +1046,7 @@ table {
 
 .child_box02 ul.content_list li.Tel {
     padding-left: 0;
-    margin-top: 7px;
+    margin-top: 11px;
 }
 
 .btn_contact {
@@ -1936,6 +1936,9 @@ ul.content_list li a {
         font-size: 2rem;
         padding-top: 11px;
         float: none;
+    }
+    ul.content_list li:last-child {
+        padding-left: 13px;
     }
     .contact_box {
         padding-bottom: 10px;
