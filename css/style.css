@@ -993,12 +993,12 @@ table {
 
 .recruit_sec02 .box.recruit_box01 p {
     padding-top: 8px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 .recruit_sec02 .box.recruit_box01 p.tel_text {
     padding-bottom: 7px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     padding-top: 5px;
 }
 
@@ -1037,7 +1037,7 @@ table {
 
 .child_box02 {
     padding-left: 23px;
-    padding-top: 23px;
+    padding-top: 21px;
     padding-bottom: 15px;
     background-color: #ffffff;
     margin-top: 10px;
