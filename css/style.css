@@ -1759,7 +1759,7 @@ ul.content_list li a {
         padding-left: 10px;
     }
     .recruit_sec01 div.infor_table tbody tr:nth-child(4) th {
-        padding: 4px 11px 6px;
+        padding: 4px 11px 6px 10px;
     }
     .infor_table tr td {
         font-size: 1.4rem;
