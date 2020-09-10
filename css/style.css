@@ -1758,6 +1758,9 @@ ul.content_list li a {
         font-size: 1.4rem;
         padding-left: 10px;
     }
+    .recruit_sec01 div.infor_table tbody tr:nth-child(4) th {
+        padding: 4px 11px 6px;
+    }
     .infor_table tr td {
         font-size: 1.4rem;
         padding: 5px 20px;
