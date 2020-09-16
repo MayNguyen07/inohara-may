@@ -89,7 +89,7 @@
                         <p>お手数ですが、<span>＊</span>の付いた項目は必ずご入力ください。<br> 半角カタカナ、外字（登録文字）での入力は文字化けの原因となりますのでお控えください。<br><a href="privacypolicy.html">個人情報保護方針</a> にご同意の上、送信ください。</p>
                     </div>
                     <div class="contact_form">
-                        <form action="./" method="post" id="form" novalidate="novalidate">
+                        <form action="./lib/mail/mail.php" method="post" id="form" novalidate="novalidate">
                             <table class="table-contact">
                                 <tbody>
                                     <tr>
@@ -99,14 +99,14 @@
                                     <tr>
                                         <th>お名前<img src="./img/contact/icon_contact_valid.png" alt="require" class="require"></th>
                                         <td>
-                                            <input type="text" name="name">
+                                            <input type="text" name="お名前">
                                             <p class="is_error_name"></p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>メールアドレス<img src="./img/contact/icon_contact_valid.png" alt="require" class="require"></th>
                                         <td>
-                                            <input type="email" name="mail">
+                                            <input type="email" name="メールアドレス">
                                             <p class="is_error_mail"></p>
                                         </td>
                                     </tr>
@@ -121,7 +121,7 @@
                                     <tr>
                                         <th>お問い合わせ内容<img src="./img/contact/icon_contact_valid.png" alt="require" class="require"></th>
                                         <td>
-                                            <textarea class="textarea" name="textarea"></textarea>
+                                            <textarea class="textarea" name="お問い合わせ内容"></textarea>
                                             <p class="is_error_textarea"></p>
                                         </td>
                                     </tr>
